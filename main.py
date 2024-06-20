@@ -7,5 +7,7 @@ def hello_world():
     return "<p>My site</p>"
 
 @app.route("/test")
-def hello_world():
+def test():
     return "<p>Test</p>"
+
+app.run(debug=True)
