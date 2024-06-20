@@ -10,4 +10,4 @@ def hello_world():
 def test():
     return "<p>Test</p>"
 
-app.run(debug=True)
+# app.run(debug=True)
